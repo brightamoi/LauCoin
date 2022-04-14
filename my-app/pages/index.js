@@ -77,7 +77,6 @@ export default function Home() {
       window.alert("Sucessfully minted LauCoin 💁🏼‍♀️");
       await getBalanceOfLauCoin();
       await getTotalTokensMinted();
-      await getTokensToBeClaimed();
     } catch (err) {
       console.error(err);
     }
@@ -211,7 +210,7 @@ export default function Home() {
             Ukulele
           </div>
           <div className={styles.description}>
-            She wants to save all the puppies in the world and you coin join the
+            She wants to save all the puppies in the world and you can join the
             cause by minting a LauCoin 🐕
           </div>
           <div className={styles.description}>
