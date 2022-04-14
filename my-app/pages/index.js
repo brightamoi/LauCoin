@@ -1,4 +1,5 @@
 import { BigNumber, Contract, providers, utils } from "ethers";
+import Image from "next/image";
 import Head from "next/head";
 import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
@@ -236,7 +237,13 @@ export default function Home() {
           )}
         </div>
         <div>
-          <img className={styles.image} src="./0.jpeg" />
+          <Image
+            className={styles.image}
+            src="/0.jpeg"
+            alt="Landscape picture"
+            width={500}
+            height={500}
+          />
         </div>
       </div>
 
