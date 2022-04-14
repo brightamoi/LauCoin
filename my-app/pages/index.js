@@ -248,6 +248,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>Made with &#10084; by Bright</footer>
+      <div>you&apos;re free</div>
     </div>
   );
 }
