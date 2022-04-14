@@ -205,7 +205,7 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Lauren Coin's ICO!</h1>
+          <h1 className={styles.title}>Welcome to Lauren Coin&apos;s ICO!</h1>
           <div className={styles.description}>
             Lauren is an amazing girl! She loves dogs, Frank Ocean and plays the
             Ukulele
@@ -248,7 +248,6 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>Made with &#10084; by Bright</footer>
-      <div>you&apos;re free</div>
     </div>
   );
 }
